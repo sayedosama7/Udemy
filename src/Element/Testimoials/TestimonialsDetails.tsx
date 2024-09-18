@@ -12,7 +12,7 @@ const TestimonialsDetails = ({ Testimoial }: { Testimoial: Testimoial }) => {
 					className="xsm:text-xl md:text-2xl text-gray-700 mb-2"
 				/>
 				<div className="mb-4">
-					<div className='xsm:text-sm md:text-base'>
+					<div className="xsm:text-sm md:text-base">
 						<p>
 							{Testimoial.desc}
 							<span className="font-bold">
@@ -41,8 +41,8 @@ const TestimonialsDetails = ({ Testimoial }: { Testimoial: Testimoial }) => {
 				</div>
 				<Link
 					to={Testimoial.link}
-                    className="text-purple-800 font-bold xsm:text-xs md:text-lg"
-                    >
+					className="text-purple-800 font-bold xsm:text-xs md:text-lg capitalize"
+				>
 					{Testimoial.linkTitle}
 				</Link>
 			</div>
