@@ -92,14 +92,16 @@
   display: none !important;
 }
 
-.css-19wsa2m-MuiButtonBase-root-MuiTab-root {
+.css-19wsa2m-MuiButtonBase-root-MuiTab-root,
+.css-9gnw14 {
   color: gray !important;
   font-weight: 600 !important;
   text-transform: capitalize !important;
   font-size: 16px !important;
 }
 
-.css-19wsa2m-MuiButtonBase-root-MuiTab-root.Mui-selected {
+.css-19wsa2m-MuiButtonBase-root-MuiTab-root.Mui-selected,
+.css-9gnw14.Mui-selected {
   color: black !important;
   font-weight: 600 !important;
   text-transform: capitalize !important;
