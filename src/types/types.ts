@@ -9,7 +9,7 @@ export interface Course {
     rateNumber: string;
     price: string;
     discount: string;
-    bestSeller: string;
+    bestSeller?: string;
 }
 
 export interface Testimoial {
